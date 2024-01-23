@@ -1,3 +1,7 @@
+// Output Function
+
+function myFunction() {
+
 // math function generate numbers
  function generateRandomNumber() { 
     return Math.floor(Math.random()* 12 + 1);
@@ -12,17 +16,17 @@
 // If statements
 
 if (die1 === 7 || die1 === 11){
-  result = "You Lose!"
+  result = "You Lose!";
   }
 else if (die1 === die2 && die1 % 2 === 0 ){
-  result = "Winner Winner get your chicken dinner!"
+  result = "Winner Winner get your chicken dinner!";
   }
 
 else  {
-  result = "Roll again!"
+  result = "Roll again!";
   }
     
 // Output by innerHTML
-function myFunction() {
+
   document.getElementById("result").innerHTML = result;
 }
