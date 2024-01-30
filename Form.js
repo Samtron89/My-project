@@ -25,7 +25,7 @@ const validateInputs = () => {
 		SetError(lastName,'Last name is required');
 	} 
 		else if ((firstNameValue + ' ' + lastNameValue).length> 20){
-			SetError(firstName + lastName,'Name must be at least 20 characters.')
+			SetError(lastName,'Name must be at least 20 characters.')
 		}
 	else {
 		setSuccess(lastName);
